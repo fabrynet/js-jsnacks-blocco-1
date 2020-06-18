@@ -1,0 +1,11 @@
+.show {
+  transform: scale(1);
+  transition: scale 1s, ease .5s;
+}
+.hidden {
+  transform: scale(0);
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  transition: scale .7s, ease .5s;
+}
